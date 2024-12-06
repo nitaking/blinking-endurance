@@ -35,6 +35,7 @@ export default function BlinkingEndurance() {
     timeRef.current = time;
   }, [time]);
 
+
   useEffect(() => {
     const loadModel = async () => {
       try {
@@ -249,11 +250,11 @@ export default function BlinkingEndurance() {
                 {formatTime(time)}
               </p>
               <p className="text-sm text-gray-500">最高記録: {formatTime(bestTime)}</p>
-              <p className="text-sm text-blue-500 mt-2">{isRunning && debugInfo}</p>
+              {/*<p className="text-sm text-blue-500 mt-2">{debugInfo}</p>*/}
               <p className="text-sm text-green-500 mt-1">
                 瞬き状態: {isBlinking ? "目を閉じています" : "目を開いています"}
               </p>
-              <p className="text-sm text-purple-500 mt-1">連続フレーム数: {blinkFrames.current}</p>
+              {/*<p className="text-sm text-purple-500 mt-1">連続フレーム数: {blinkFrames.current}</p>*/}
             </div>
             <div className="flex justify-center">
               {!isRunning ? (
