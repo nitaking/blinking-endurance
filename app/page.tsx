@@ -16,7 +16,7 @@ export default function BlinkingEndurance() {
   const [model, setModel] = useState<faceLandmarksDetection.FaceLandmarksDetector | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [isModelLoading, setIsModelLoading] = useState(true);
-  const [debugInfo, setDebugInfo] = useState<string>("");
+  const [, setDebugInfo] = useState<string>("");
 
   const webcamRef = useRef<Webcam>(null);
   const requestRef = useRef<number>();
