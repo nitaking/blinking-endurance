@@ -3,7 +3,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 ## Blink Endurance Challenge app
 
 
-<div><video controls src="./docs/screenshot.mp4" muted="false"></video></div>
+<div><video controls src="https://github.com/nitaking/blinking-endurance/blob/main/docs/screenshot.mp4" muted="false"></video></div>
 
 
 ```bash
